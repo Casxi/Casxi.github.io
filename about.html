@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<!--
+	Retrospect by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<html>
+	<head>
+		<title>About Cassie Xia</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<h1><a href="index.html">Personal Galleria</a></h1>
+				<a href="#nav">Menu</a>
+			</header>
+
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="generic.html">Gallery</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="elements.html">Resume</a></li>
+				</ul>
+			</nav>
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="container">
+
+					<header class="major special">
+						<h2>Who am I?</h2>
+						<p>MY PROFESSIONAL SIDE VS. EVERYDAY ME</p>
+					</header>
+
+					<!-- <a href="#" class="image fit"><img src="images/pic11.jpg" alt="" /></a> -->
+					<!-- Slideshow -->
+						<div class="image fit">
+	  						<img class="mySlides" src="images/about-1.jpg" style="width:100%">
+	  						<img class="mySlides" src="images/about-2.jpg" style="width:100%">
+	  						<img class="mySlides" src="images/about-3.jpg" style="width:100%">
+	  						<img class="mySlides" src="images/about-4.jpg" style="width:100%">
+	  					<div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+	    				<div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+	    				<div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+	    				<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+	    				<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+	    				<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+	    				<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+	  					</div>
+						</div>
+
+						<script>
+						var slideIndex = 1;
+						showDivs(slideIndex);
+
+						function plusDivs(n) {
+	 						showDivs(slideIndex += n);
+						}
+
+						function currentDiv(n) {
+	  						showDivs(slideIndex = n);
+						}
+
+						function showDivs(n) {
+						  var i;
+						  var x = document.getElementsByClassName("mySlides");
+						  var dots = document.getElementsByClassName("demo");
+						  if (n > x.length) {slideIndex = 1}    
+						  if (n < 1) {slideIndex = x.length}
+						  for (i = 0; i < x.length; i++) {
+						     x[i].style.display = "none";  
+						  }
+						  for (i = 0; i < dots.length; i++) {
+						     dots[i].className = dots[i].className.replace(" w3-white", "");
+						  }
+						  x[slideIndex-1].style.display = "block";  
+						  dots[slideIndex-1].className += " w3-white";
+						}
+						</script>
+
+
+					<p>Alright, let's start with my professional side. I'm Cassie Xia, a recent GT electrical engineering graduate with three summers of internship experience varying from automation to modeling to fault analysis. I have an academic interest in telecommunications and power systems engineering, and I currently hold a full time position in software engineering at General Dynamics Mission Systems. During college, I've been active in WECE, SAFE, and StemPower, all diversity groups because I am a minority woman in a heavily male dominated field. In the near future, I will be starting my graduate studies at Johns Hopkins University in electrical and computer engineering, telecommunications and networking option. Check out my resume for more details!
+					</p>
+					<p>That's not all though! Outside of my full time job and soon grad school, I've taken on various hobbies. Before college, I would either play the violin, draw, play chess, or do abstract math problems. I used to play a lot of League of Legends and Hearthstone, and I ended up with decent ranks for both! There are some other games here and there that I also used to play, but I mainly played to meet people all over the country through active Discord and Skype groups. I'm not good at badminton, but I really loved playing with my friends in college. Now, I'm working on Chinese calligraphy and hoping to get better through practice!</p>
+					<p>Here are some fun facts about myself! I can't eat spicy food, but otherwise I love trying out new dishes and cuisines. I have simple taste; I really like fried chicken and mashed potatoes. When I have ample time to relax, I watch anime, but I usually end up only watching a few episodes per month. It's hard to distinguish my Mandarin from a native, despite being American born! One thing I really want to do is to go stargazing. When I have more economic stability, I want to travel and explore many more places, take lots of pictures, and eat lots and lots of food!</p>
+					<p>Hope I didn't bore you yet! Please check out the rest of my website to look at my work. That's all I have for here, keep on exploring!</p>
+
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="#" class="icon fa-facebook">
+							<span class="label">Facebook</span>
+						</a></li>
+						<li><a href="#" class="icon fa-twitter">
+							<span class="label">Twitter</span>
+						</a></li>
+						<li><a href="#" class="icon fa-instagram">
+							<span class="label">Instagram</span>
+						</a></li>
+						<li><a href="#" class="icon fa-linkedin">
+							<span class="label">LinkedIn</span>
+						</a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled.</li>
+						<li>Images: <a href="http://unsplash.com">Unsplash</a>.</li>
+						<li>Design: <a href="http://templated.co">TEMPLATED</a>.</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
