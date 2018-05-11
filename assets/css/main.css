@@ -2288,8 +2288,8 @@
 			margin: 0 0 2em 0;
 			text-align: center;
 			border-radius: 4px;
-			box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
-			background-color: rgba(255, 255, 255, 0.075);
+			box-shadow: inset 0 0 0 1px rgba(9, 9, 9, 0.25);
+			background-color: rgba(189, 230, 239, 0.25);
 			cursor: pointer;
 			outline: 0;
 			overflow: hidden;
@@ -2307,8 +2307,12 @@
 			}
 
 			.thumbnails a:hover {
-				background-color: rgba(255, 255, 255, 0.25);
-				box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25), 0 0 0.5em 0 #FF6382;
+				background-color: rgba(189, 230, 239, 0.5);
+				box-shadow: inset 0 0 0 1px rgba(12, 109, 255, 0.25), 0 0 0.5em 0 #2a52e0;
+				-moz-transform: scale(1.025);
+				-webkit-transform: scale(1.025);
+				-ms-transform: scale(1.025);
+				transform: scale(1.025);
 			}
 
 		.thumbnails > div {
