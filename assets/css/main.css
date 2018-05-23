@@ -2356,7 +2356,7 @@
 }
 
 /* The actual content */
-.content {
+.content_timeline {
     padding: 20px 30px;
     background-color: #e0ffff;
     position: relative;
